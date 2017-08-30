@@ -1,0 +1,58 @@
+
+body {
+	margin: 0;
+}
+
+#container {
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Geneva, sans-serif;
+	width: 100%;
+}
+
+
+/* header styling */
+
+#header {
+	height: 100px;
+	background-color: rgb(128,128,128);
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+
+#myName {
+	display: inline;
+	margin: 20px;
+	padding: 10px 20px;
+	text-align: center;
+	line-height: 90px;
+}
+
+#navigation {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+
+li {
+	float: right;
+}
+
+li a {
+	display: inline-block;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px;
+}
+
+
+/* Home page */
+
+#myBackground {
+	width: 100%;
+}
