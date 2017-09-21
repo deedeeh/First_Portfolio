@@ -98,11 +98,13 @@ p {
 	height: 500px;
 }
 
-.projects {
-	width: 31%;
-	height: 300px;
-	display: inline-block;
-	background-color: #fff;
-	margin: auto;
-	margin-left: 1.5%;
+#myPortfolio {
+	width: 90%;
+	margin: 0 auto;
+}
+
+img {
+	width: 350px;
+	padding-top: 80px;
+	padding-right: 10px;
 }
