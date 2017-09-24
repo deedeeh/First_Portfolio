@@ -115,7 +115,7 @@ img {
 	padding-bottom: 10px;
 }
 
-#icons {
+#contact-details {
 	margin: 50px 0;
 }
 
@@ -130,6 +130,10 @@ img {
 
 .text-icon {
 	padding-left: 5px;
+}
+
+.social-networks {
+	padding-top: 30px;
 }
 
 #footer {
