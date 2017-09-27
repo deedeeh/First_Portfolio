@@ -21,7 +21,7 @@ body, html {
 }
 
 
-/* header styling */
+/* ======================== Header Styling ======================== */
 
 #header {
 	height: 60px;
@@ -60,7 +60,7 @@ li a {
 	padding: 20px 30px;
 }
 
-/* Content styling */
+/* ======================== Content Styling ======================== */
 
 #about,
 #contact {
@@ -153,4 +153,31 @@ small {
 .social-icons {
 	width: 40px;
 	padding-right: 15px;;
+}
+
+/* ======================== Media Queries ======================== */
+
+@media only screen and (max-width: 1287px) {
+	#about,
+	#contact {
+		width: 60%;
+	}
+	.myPortfolio {
+		width: 90%;
+	}
+}
+
+@media only screen and (max-width: 1144px) {
+	#work {
+		height: 600px;
+	}
+	.myPortfolio {
+		width: 100%;
+		padding-top: 160px;
+		padding: bottom: 160px;
+	}
+	img {
+		width: 31.5%;
+	}
+
 }
