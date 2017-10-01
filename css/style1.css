@@ -1,4 +1,10 @@
 
+/** {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}*/
+
 body, html {
 	height: 100%;
 	margin: 0;
@@ -186,10 +192,9 @@ small {
 	}
 	.myPortfolio {
 		width: 100%;
-		padding-top: 160px;
-		padding: bottom: 160px;
+		padding: 160px 18px;
 	}
 	img {
-		width: 31.5%;
+		width: 31%;
 	}
 }
