@@ -1,27 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Dina's Portfolio</title>
 		<meta charset= "UTF-8">
-		<meta name= "viewport" content= "width= device-width, initial-scale=1">
-		<title>Dina's Portfolio</title>
-    <link rel= "stylesheet" href= "css/style1.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel= "stylesheet" href="css/style1.css">
     <link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
 	</head>
 	<body>
-		<div id= "container">
-			<div id= "header">
-				<h1 id= "myName">Dina Hafez</h1>
-				<ul id= "navigation">
-					<li><a href= "#">Home</a></li>
-					<li><a href= "#about">About</a></li>
-					<li><a href= "#work">Work</a></li>
-					<li><a href= "#contact">Contact</a></li>
+		<div class="container">
+			<header class="header">
+				<h1 class="myName">Dina Hafez</h1>
+				<ul class="navigation">
+					<li class="navigationItem"><a class="navigationLink" href="#">Home</a></li>
+					<li class="navigationItem"><a class="navigationLink" href="#about">About</a></li>
+					<li class="navigationItem"><a class="navigationLink" href="#work">Work</a></li>
+					<li class="navigationItem"><a class="navigationLink" href="#contact">Contact</a></li>
 				</ul>
-			</div>	<!-- header end -->
+			</header>
 		</div>	<!-- container end -->
-    <div id= "background"></div>
-    <div id="about">
-      <h2>About</h2>
+    <section class="about" id="about">
+      <h2 class="sectionTitle">About</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -33,11 +32,9 @@
           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
           fugiat nulla pariatur.</p>
-        <!-- <img id="portrait" src="images/about.jpg" alt="photo of myself"/> -->
-    </div> <!-- about section end -->
-    <div id="work">
+    </section>
+    <section class="work" id="work">
       <div class="myPortfolio">
-        <!-- <h2>Work</h2> -->
         <a href="https://codepen.io/deedeeh/full/pwBwEm/" target="_blank">
           <img src="images/proj1.jpg" alt="An upper view landscape photo of Brazil"/>
         </a>
@@ -48,19 +45,19 @@
           <img src="images/proj3.jpg" alt="A tribute page for the web developer Adda Birnir"/>
         </a>
       </div>
-    </div>
-    <div id="contact">
-      <h2>Contact</h2>
+    </section>
+    <section class="contact" id="contact">
+      <h2 class="sectionTitle">Contact</h2>
       <p>Do you have a project that you need help with?</p>
       <p>I am happy to be your helping hand! &nbsp; Get in touch :-)</p>
-      <div id="contact-details">
+      <div class="contact-details">
         <div class="email">
           <img class="icon" src="images/email-icon.png" alt="email icon"/><span
           class="text-icon">info@gmail.com</span>
         </div>
       </div>    <!-- contact-details end -->
-    </div>    <!-- contact end -->
-    <div id="footer">
+    </section>
+    <footer class="footer">
       <small>&copy; Dina Hafez 2017</small>
       <div class="social-networks">
         <a href="https://github.com/deedeeh" target="_blank"><img class="social-icons"
@@ -72,6 +69,6 @@
         <a href="https://www.linkedin.com/in/dhafez/" target="_blank"><img class="social-icons"
           src="images/linkedin-icon.png" alt="LinkedIn icon"/></a>
       </div>
-    </div>    <!-- footer end -->
+    </footer>
 	</body>
 </html>
