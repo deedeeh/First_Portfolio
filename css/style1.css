@@ -75,16 +75,17 @@ body, html {
 
 .about,
 .contact {
-	width: 50%;
-	margin: 0 auto;
+	width: 100%;
 }
 
 .about {
-	padding: 120px 50px;
+	padding: 30px 10px;
+	margin: 0 0 30px;
 }
 
 .contact {
-	padding: 105px 50px;
+	padding: 105px 10px 10px;
+	margin: 0 auto;
 }
 
 .contact h2 {
@@ -92,27 +93,28 @@ body, html {
 }
 
 .sectionTitle {
-	font-size: 1.2em;
-	border-bottom: 0.50px solid .000;
+	font-size: 18px;
+	border-bottom: 0.50px solid #000;
 	width: 100px;
 	padding-bottom: 10px;
 	margin-bottom: 20px;
 }
 
 p {
-	font-size: 15px;
-	line-height: 22px;
+	font-size: 14px;
+	line-height: 24px;
 }
 
 .work {
 	margin: 0;
-	height: 100%;
+	height: 140%;
 	display: flex;
 	align-items: center;
 }
 
 .myPortfolio {
 	background-color: #bac1c7;
+	height: 110%;
 	margin: 0 auto;
 	width: 100%;
 	display: flex;
@@ -131,16 +133,12 @@ p {
 
 img {
 	width: 100%;
-	padding: 0 5px 10px;
+	padding: 5px;
 }
 
 .contact-details {
 	margin: 50px 0;
 }
-
-/*.phone p {
-	line-height: 10px;
-}*/
 
 .icon {
 	width: 50px;
@@ -193,24 +191,43 @@ small {
 		font-size: 17px;
 	}
 
+	.about,
+	.contact {
+		width: 50%;
+	}
+
+	.about {
+		padding: 120px 50px;
+		margin: 0 auto;
+	}
+
+	.contact {
+		padding: 105px 50px;
+	}
+
+	.sectionTitle {
+		font-size: 1.2em;
+	}
+
+	p {
+		font-size: 15px;
+		line-height: 22px;
+	}
+
 	.work {
 		background-color: #bac1c7;
+		height: 100%;
 	}
 
 	.myPortfolio {
 		background-color: transparent;
-		margin: 0 auto;
 		width: 80%;
-		display: flex;
-		justify-content: center;
-		align-items: center;
 		flex-wrap: nowrap;
 	}
 
 	.myPortfolio a {
 		width: 30%;
-		display: block;
-		box-shadow: 0 0 3px #eee;
 		margin: 0 2%;
 	}
+
 }
