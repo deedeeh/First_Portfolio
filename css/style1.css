@@ -153,6 +153,7 @@ img {
 	height: 150px;
 	background-color: #000;
 	color: #fff;
+	position: relative;
 }
 
 small {
@@ -161,6 +162,10 @@ small {
 	justify-content: center;
 	align-items: flex-end;
 	padding-bottom: 12%;
+	position: absolute;
+	top: 70px;
+	right: 0;
+	left: 0;
 }
 
 .social-networks {
@@ -168,6 +173,10 @@ small {
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
+	position: absolute;
+	top: 25px;
+	right: 0;
+	left: 0;
 }
 
 .social-links {
@@ -242,24 +251,27 @@ small {
 
 	.footer {
 		height: 100px;
+		position: static;
 	}
 
 	small {
 		float: left;
-		width: 75%;
+		width: 72%;
 		height: 100%;
 		justify-content: flex-start;
 		align-items: center;
 		padding: 0 0 0 100px;
+		position: static;
 	}
 
 	.social-networks {
 		float: right;
-		width: 25%;
+		width: 23%;
 		height: 100%;
 		justify-content: space-around;
 		align-items: center;
 		padding-right: 100px;
+		position: static;
 	}
 
 }
