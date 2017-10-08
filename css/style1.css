@@ -84,7 +84,7 @@ body, html {
 }
 
 .contact {
-	padding: 105px 10px 10px;
+	padding: 80px 10px 0;
 	margin: 0 auto;
 }
 
@@ -115,25 +115,25 @@ p {
 .myPortfolio {
 	background-color: #bac1c7;
 	height: 110%;
-	margin: 0 auto;
+	margin: 20px 0 0;
 	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
+	padding: 40px 0;
 }
 
 .myPortfolio a {
 	width: 90%;
 	text-decoration: none;
 	display: block;
-	box-shadow: 0 0 3px #eee;
-	margin-bottom: 2%;
+	box-shadow: 0 0 3px 2px #eee;
 }
 
 img {
 	width: 100%;
-	padding: 5px;
+	padding: 2px;
 }
 
 .contact-details {
@@ -242,6 +242,8 @@ small {
 		background-color: transparent;
 		width: 80%;
 		flex-wrap: nowrap;
+		margin: 0 auto;
+		padding: 0;
 	}
 
 	.myPortfolio a {
