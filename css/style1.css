@@ -115,8 +115,8 @@ p {
 .myPortfolio {
 	background-color: #bac1c7;
 	height: 110%;
-	margin: 20px 0 0;
 	width: 100%;
+	margin: 20px 0 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -128,12 +128,11 @@ p {
 	width: 90%;
 	text-decoration: none;
 	display: block;
-	box-shadow: 0 0 3px 2px #eee;
+	box-shadow: 0 0 3px 2px #ccc;
 }
 
 img {
 	width: 100%;
-	padding: 2px;
 }
 
 .contact-details {
@@ -141,7 +140,7 @@ img {
 }
 
 .icon {
-	width: 50px;
+	width: 40px;
 	vertical-align: middle;
 }
 
@@ -191,6 +190,10 @@ small {
 
 /* ======================== Media Queries ======================== */
 
+/*@media (min-width: 479px) {
+
+}*/
+
 @media (min-width: 767px) {
 	.myName {
 		margin: 0 0 0 50px;
@@ -210,7 +213,7 @@ small {
 
 	.about,
 	.contact {
-		width: 80%;
+		width: 70%;
 	}
 
 	.about {
@@ -220,20 +223,21 @@ small {
 
 	.work {
 		background-color: #bac1c7;
-		height: 140%;
+		height: 100%;
 	}
 
 	.myPortfolio {
 		background-color: transparent;
 		height: 100%;
 		width: 100%;
-		margin: 20px 0 20px;
-		padding: 50px 0;
+		margin: 20px 15px;
+		padding: 0;
+		flex-wrap: nowrap;
 	}
 
 	.myPortfolio a {
 		width: 65%;
-		margin: 2%;
+		margin: 0 1%;
 	}
 
 	.contact {
@@ -244,6 +248,10 @@ small {
 		margin: 50px 0 0;
 	}
 
+	.text-icon {
+		padding-left: 8px;
+	}
+
 	.footer {
 		height: 120px;
 		position: static;
@@ -251,7 +259,7 @@ small {
 
 	small {
 		float: left;
-		width: 65%;
+		width: 75%;
 		height: 100%;
 		justify-content: flex-start;
 		align-items: center;
@@ -261,7 +269,7 @@ small {
 
 	.social-networks {
 		float: right;
-		width: 35%;
+		width: 25%;
 		height: 100%;
 		justify-content: space-around;
 		align-items: center;
@@ -289,7 +297,7 @@ small {
 
 	.about,
 	.contact {
-		width: 50%;
+		width: 60%;
 	}
 
 	.about {
@@ -310,20 +318,18 @@ small {
 	}
 
 	.work {
-		height: 100%;
+		height: 90%;
 	}
 
 	.myPortfolio {
-		background-color: transparent;
-		width: 80%;
-		flex-wrap: nowrap;
+		width: 90%;
 		margin: 0 auto;
 		padding: 0;
 	}
 
 	.myPortfolio a {
 		width: 30%;
-		margin: 0 2%;
+		margin: 0 1%;
 	}
 
 	.footer {
@@ -331,12 +337,27 @@ small {
 	}
 
 	small {
-		width: 72%;
+		width: 78%;
 		padding: 0 0 0 100px;
 	}
 
 	.social-networks {
-		width: 23%;
+		width: 22%;
 		padding-right: 100px;
+	}
+}
+
+@media (min-width: 1223px) {
+	.about,
+	.contact {
+		width: 50%;
+	}
+
+	.work {
+		height: 100%;
+	}
+
+	.portfolio {
+		width: 80%;
 	}
 }
