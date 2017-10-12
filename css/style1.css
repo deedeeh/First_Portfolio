@@ -26,7 +26,6 @@ body, html {
 /* ======================== Header Styling ======================== */
 
 .header {
-	height: 60px;
 	/*background-color: rgb(47,50,57);
 	background-color: rgba(47,50,57,.6);*/
 	position: fixed;
@@ -34,6 +33,10 @@ body, html {
 	width: 100%;
 	padding-top: 10px;
 }
+
+/*.header.has-background {
+	background-image: url("../images/cover1.jpg");
+}*/
 
 .myName {
 	margin: 0 0 0 10px;
@@ -107,14 +110,12 @@ p {
 
 .work {
 	margin: 0;
-	height: 140%;
 	display: flex;
 	align-items: center;
 }
 
 .myPortfolio {
 	background-color: #bac1c7;
-	height: 110%;
 	width: 100%;
 	margin: 20px 0 0;
 	display: flex;
@@ -149,33 +150,25 @@ img {
 }
 
 .footer {
-	height: 150px;
 	background-color: #000;
 	color: #fff;
-	position: relative;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 50px 10px;
+
 }
 
 small {
-	height: 50%;
-	display: flex;
-	justify-content: center;
-	align-items: flex-end;
-	padding-bottom: 12%;
-	position: absolute;
-	top: 70px;
-	right: 0;
-	left: 0;
+	order: 1;
+
 }
 
 .social-networks {
-	height: 50%;
+	order: 0;
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
-	position: absolute;
-	top: 25px;
-	right: 0;
-	left: 0;
 }
 
 .social-links {
@@ -253,28 +246,28 @@ small {
 	}
 
 	.footer {
-		height: 120px;
 		position: static;
+		flex-direction: row;
 	}
 
 	small {
 		float: left;
 		width: 75%;
-		height: 100%;
 		justify-content: flex-start;
 		align-items: center;
 		padding: 0 0 0 50px;
 		position: static;
+		order: 0;
 	}
 
 	.social-networks {
 		float: right;
 		width: 25%;
-		height: 100%;
 		justify-content: space-around;
 		align-items: center;
 		padding-right: 50px;
 		position: static;
+		order: 1;
 	}
 
 }
@@ -330,10 +323,6 @@ small {
 	.myPortfolio a {
 		width: 30%;
 		margin: 0 1%;
-	}
-
-	.footer {
-		height: 100px;
 	}
 
 	small {
