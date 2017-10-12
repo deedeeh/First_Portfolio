@@ -26,8 +26,6 @@ body, html {
 /* ======================== Header Styling ======================== */
 
 .header {
-	/*background-color: rgb(47,50,57);
-	background-color: rgba(47,50,57,.6);*/
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -39,7 +37,7 @@ body, html {
 }*/
 
 .myName {
-	margin: 0 0 0 10px;
+	margin: 0;
 	padding: 10px;
 	color: #fff;
 	font-family: 'Lobster Two', cursive;
@@ -79,16 +77,8 @@ body, html {
 .about,
 .contact {
 	width: 100%;
-}
-
-.about {
-	padding: 30px 10px;
-	margin: 0 0 30px;
-}
-
-.contact {
-	padding: 80px 10px 0;
 	margin: 0 auto;
+	padding: 30px 10px;
 }
 
 .contact h2 {
@@ -117,12 +107,11 @@ p {
 .myPortfolio {
 	background-color: #bac1c7;
 	width: 100%;
-	margin: 20px 0 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
-	padding: 40px 0;
+	padding: 50px 0 30px;
 }
 
 .myPortfolio a {
@@ -130,6 +119,7 @@ p {
 	text-decoration: none;
 	display: block;
 	box-shadow: 0 0 3px 2px #ccc;
+	margin-bottom: 20px;
 }
 
 img {
@@ -137,7 +127,7 @@ img {
 }
 
 .contact-details {
-	margin: 50px 0;
+	padding: 10px 0;
 }
 
 .icon {
@@ -155,13 +145,13 @@ img {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	padding: 50px 10px;
+	padding: 40px 10px;
 
 }
 
 small {
 	order: 1;
-
+	padding-top: 10px;
 }
 
 .social-networks {
@@ -183,35 +173,39 @@ small {
 
 /* ======================== Media Queries ======================== */
 
-/*@media (min-width: 479px) {
+@media (min-width: 479px) {
+	.navigation-link {
+		padding: 20px;
+	}
 
-}*/
+	.about,
+	.contact {
+		width: 80%;
+	}
+
+	.myPortfolio a {
+		width: 62%;
+	}
+}
 
 @media (min-width: 767px) {
 	.myName {
 		margin: 0 0 0 50px;
+		padding: 10px 10px 10px 0;
 		float: left;
 		font-size: 35px;
 	}
 
 	.navigation {
-		margin: 15px 50px 0 0;
-		padding-top: 12px;
+		margin: 15px 40px 15px 0;
+		padding: 10px 0;
 		float: right;
-	}
-
-	.navigation-link {
-		padding: 20px 15px;
 	}
 
 	.about,
 	.contact {
 		width: 70%;
-	}
-
-	.about {
-		padding: 50px 30px;
-		margin: 0 auto;
+		padding: 80px 30px;
 	}
 
 	.work {
@@ -230,15 +224,11 @@ small {
 
 	.myPortfolio a {
 		width: 65%;
-		margin: 0 1%;
-	}
-
-	.contact {
-		padding: 50px 30px;
+		/*margin: 0 1%;*/
 	}
 
 	.contact-details {
-		margin: 50px 0 0;
+		margin: 30px 0 0;
 	}
 
 	.text-icon {
@@ -246,30 +236,22 @@ small {
 	}
 
 	.footer {
-		position: static;
 		flex-direction: row;
 	}
 
 	small {
-		float: left;
-		width: 75%;
-		justify-content: flex-start;
-		align-items: center;
+		width: 74%;
 		padding: 0 0 0 50px;
-		position: static;
 		order: 0;
 	}
 
 	.social-networks {
-		float: right;
-		width: 25%;
+		width: 26%;
 		justify-content: space-around;
 		align-items: center;
-		padding-right: 50px;
-		position: static;
+		padding-right: 60px;
 		order: 1;
 	}
-
 }
 
 @media (min-width: 1023px) {
@@ -279,26 +261,18 @@ small {
 	}
 
 	.navigation {
-		margin: 15px 80px 0 0;
-		padding-top: 5px;
+		margin: 15px 74px 15px 0;
 	}
 
 	.navigation-link {
-		padding: 20px 30px;
+		padding: 20px 25px;
 		font-size: 17px;
 	}
 
 	.about,
 	.contact {
 		width: 60%;
-	}
-
-	.about {
-		padding: 120px 50px;
-	}
-
-	.contact {
-		padding: 105px 50px;
+		padding: 110px 50px;
 	}
 
 	.section-title {
@@ -326,12 +300,12 @@ small {
 	}
 
 	small {
-		width: 78%;
-		padding: 0 0 0 100px;
+		width: 72%;
+		padding: 0 0 0 90px;
 	}
 
 	.social-networks {
-		width: 22%;
+		width: 28%;
 		padding-right: 100px;
 	}
 }
@@ -348,5 +322,13 @@ small {
 
 	.portfolio {
 		width: 80%;
+	}
+
+	small {
+		width: 76%;
+	}
+
+	.social-networks {
+		width: 24%;
 	}
 }
