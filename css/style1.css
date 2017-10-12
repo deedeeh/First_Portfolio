@@ -217,14 +217,14 @@ small {
 		background-color: transparent;
 		height: 100%;
 		width: 100%;
-		margin: 20px 15px;
+		margin: 0 5px;
 		padding: 0;
 		flex-wrap: nowrap;
 	}
 
 	.myPortfolio a {
 		width: 65%;
-		/*margin: 0 1%;*/
+		margin: 0 .8%;
 	}
 
 	.contact-details {
