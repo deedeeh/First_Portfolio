@@ -41,7 +41,7 @@ body, html {
 .header.has-color {
 	background-color: #5c6670;
 	box-shadow: 2px 0 2px 2px #b9bfc6;
-	transition: 1s ease-out;
+	transition: all 0.4s ease;
 }
 
 .myName {
@@ -293,7 +293,7 @@ small {
 	}
 
 	.section-title {
-		font-size: 1.2em;
+		font-size: 1.333em;
 	}
 
 	p {
