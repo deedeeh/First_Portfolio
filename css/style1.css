@@ -4,6 +4,12 @@ body, html {
 	margin: 0;
 	font-family: Verdana, Geneva, sans-serif;
 	box-sizing: border-box;
+	font-feature-settings: "kern", "liga";
+	-moz-font-feature-settings: "kern", "liga";
+	-moz-font-feature-settings: "kern=1", "liga=1";
+	-ms-font-feature-settings: "kern", "liga";
+	-o-font-feature-settings: "kern", "liga";
+	-webkit-font-feature-settings: "kern", "liga";
 }
 
 *, *:before, *:after {
@@ -43,6 +49,7 @@ body, html {
 	padding: 10px;
 	color: #fff;
 	font-family: 'Lobster Two', cursive;
+	font-weight: 700;
 	letter-spacing: 3px;
 	font-size: 38px;
 	text-align: center;
@@ -79,8 +86,9 @@ body, html {
 .about,
 .contact {
 	width: 100%;
+	max-width: 26rem;
 	margin: 0 auto;
-	padding: 30px 10px;
+	padding: 3em 2%;
 }
 
 .contact h2 {
@@ -188,7 +196,8 @@ small {
 
 	.about,
 	.contact {
-		width: 80%;
+		max-width: 27rem;
+		padding: 5em 2%;
 	}
 
 	.myPortfolio a {
@@ -212,8 +221,8 @@ small {
 
 	.about,
 	.contact {
-		width: 70%;
-		padding: 80px 30px;
+		max-width: 28rem;
+		padding: 8em 2%;
 	}
 
 	.work {
@@ -279,8 +288,8 @@ small {
 
 	.about,
 	.contact {
-		width: 60%;
-		padding: 110px 50px;
+		max-width: 35rem;
+		padding: 10em 4%;
 	}
 
 	.section-title {
@@ -288,8 +297,8 @@ small {
 	}
 
 	p {
-		font-size: 15px;
-		line-height: 22px;
+		font-size: 1em;
+		line-height: 1.6;
 	}
 
 	.work {
@@ -321,7 +330,8 @@ small {
 @media (min-width: 1223px) {
 	.about,
 	.contact {
-		width: 50%;
+		max-width: 37rem;
+		padding: 10em 4%;
 	}
 
 	.work {
