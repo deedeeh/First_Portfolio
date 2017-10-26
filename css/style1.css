@@ -45,12 +45,16 @@ body, html {
 .myName {
 	margin: 0;
 	padding: 10px;
-	color: #fff;
 	font-family: 'Lobster Two', cursive;
 	font-weight: 700;
 	letter-spacing: 3px;
 	font-size: 38px;
 	text-align: center;
+}
+
+.myName-link {
+	color: #fff;
+	text-decoration: none;
 }
 
 .navigation {
@@ -84,9 +88,8 @@ body, html {
 .about,
 .contact {
 	width: 100%;
-	max-width: 26rem;
 	margin: 0 auto;
-	padding: 3em 2%;
+	padding: 3em 4%;
 }
 
 .contact h2 {
@@ -225,7 +228,7 @@ small {
 
 	.work {
 		background-color: #bac1c7;
-		height: 100%;
+		/*height: 100%;*/
 	}
 
 	.myPortfolio {
@@ -233,7 +236,7 @@ small {
 		height: 100%;
 		width: 100%;
 		margin: 0 5px;
-		padding: 0;
+		padding: 140px 0;
 		flex-wrap: nowrap;
 	}
 
@@ -306,7 +309,7 @@ small {
 	.myPortfolio {
 		width: 90%;
 		margin: 0 auto;
-		padding: 0;
+		padding: 180px 0;
 	}
 
 	.myPortfolio a {
@@ -338,6 +341,7 @@ small {
 
 	.portfolio {
 		width: 80%;
+		padding: 210px 0;
 	}
 
 	small {
